@@ -1,0 +1,197 @@
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+table,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+select,
+textarea,
+span,
+strong,
+em,
+b,
+i,
+u,
+a,
+img,
+* {
+    padding: 0;
+    margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+body {
+    font-family: "宋体";
+    font-size: 12px;
+    color: #000;
+    background-color: #fff;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 14px;
+}
+
+img {
+    border: none;
+}
+
+img,
+input,
+textarea,
+select,
+output {
+    vertical-align: middle;
+}
+
+a {
+    background: transparent;
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #006699;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+.head {
+    width: 1200px;
+    height: 66px;
+    background: rgb(42, 130, 228);
+    margin: 0 auto;
+
+    .header {
+        width: 140px;
+        height: 66px;
+        float: right;
+        margin-right: 30px;
+        padding-top: 10px;
+        box-sizing: border-box;
+        text-align: center;
+
+        img {
+            width: 45px;
+            height: 45px;
+            float: left;
+            border-radius: 50%;
+        }
+
+        .signOut {
+            width: 66px;
+            height: 21px;
+            float: right;
+            background: #e64340;
+            border: 0;
+            color: #fff;
+            border-radius: 10px;
+        }
+
+        .changePassword {
+            width: 62px;
+            height: 18px;
+            float: right;
+            margin-top: 10px;
+            color: #fff;
+        }
+    }
+}
+
+.login {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#root {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.register {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+
+    .avatar-uploader>.ant-upload {
+        width: 128px;
+        height: 128px;
+        margin-left: 300px;
+    }
+}
+
+.SearchAddMember {
+    height: 50px;
+    padding: 0 10px;
+    margin-top: 15px;
+}
+
+main {
+    width: 1200px;
+    height: 100%;
+    background: #99f;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+    width: 200px;
+    height: 100%;
+    background: #006699;
+}
+
+.right {
+    float: left;
+    width: 1000px;
+    height: 100%;
+    background: #fff;
+    text-align: center;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
