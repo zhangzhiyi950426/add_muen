@@ -1,6 +1,4 @@
 import Home from '../component/home';
-import Register from '../view/Register';
-import Login from '../view/Login';
 import AnNode from '../view/../view/AnNode';
 import Group from '../view/group/Group';
 import NotFound from '../view/error/NotFound';
@@ -30,19 +28,6 @@ const config = [
             to: "/home/table"
         }
         ]
-    },
-    {
-        path: "/register",
-        component: Register
-    },
-    {
-        path: "/login",
-        component: Login
-    },
-
-    {
-        from: "/",
-        to: "/login"
     }
 ]
 export default config;
